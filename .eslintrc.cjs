@@ -3,7 +3,7 @@ require('@rushstack/eslint-patch/modern-module-resolution')
 
 module.exports = {
   root: true,
-  'extends': [
+  extends: [
     'plugin:vue/vue3-essential',
     'eslint:recommended',
     '@vue/eslint-config-prettier/skip-formatting'
@@ -28,7 +28,6 @@ module.exports = {
         ignores: ['index'] // vue组件名称多单词组成（忽略index.vue）
       }
     ],
-    'vue/no-setup-props-destructure': ['off'], // 关闭 props 解构的校验
+    'vue/no-setup-props-destructure': ['off'] // 关闭 props 解构的校验
   }
-  
 }

@@ -1,3 +1,7 @@
+// 样式
+import './assets/index.css'
+
+// 通用
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
